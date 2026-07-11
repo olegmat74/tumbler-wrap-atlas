@@ -23,3 +23,11 @@
   .pageHero h1{font-size:44px;}
   .pageHero .panel{padding:26px 28px 30px;}
 }
+
+
+/* Mobile tap-target fix 2026-07-11: make logo/back links easy to tap. */
+@media(max-width:600px){
+  .bar{min-height:52px;padding:8px 18px;}
+  .brand{display:inline-flex;align-items:center;min-height:44px;}
+  .crumb{display:inline-flex;align-items:center;min-height:44px;padding:0 4px;margin-bottom:8px;}
+}
