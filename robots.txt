@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://GITHUB_USER.github.io/tumbler-wrap-atlas/sitemap.xml
