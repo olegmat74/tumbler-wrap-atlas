@@ -31,3 +31,6 @@
   .brand{display:inline-flex;align-items:center;min-height:44px;}
   .crumb{display:inline-flex;align-items:center;min-height:44px;padding:0 4px;margin-bottom:8px;}
 }
+
+/* Full portfolio audit hardening 2026-07-14 */
+html,body{max-width:100%;}img,svg,video,canvas{max-width:100%;height:auto}.hero,.grid,.section,.cards,.card,.panel,.wrap,.container,main,header,footer{max-width:100%;box-sizing:border-box}pre,code{white-space:pre-wrap;word-break:break-word}@media(max-width:900px){body{overflow-x:clip}.hero,.split,.feature,.grid,.cards,.columns{grid-template-columns:1fr!important}.section,main,header,footer{padding-left:min(6vw,22px)!important;padding-right:min(6vw,22px)!important}.card,.panel,.tile,.feature,.hero{min-width:0!important}h1,h2,h3,p,a,span{overflow-wrap:anywhere}.nav,.nav-inner{max-width:100%;flex-wrap:wrap!important}}
